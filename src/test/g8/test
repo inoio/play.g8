@@ -1,0 +1,4 @@
+# http://eed3si9n.com/testing-sbt-plugins
+>test
+$ exists build.sbt
+$ exists project/build.properties

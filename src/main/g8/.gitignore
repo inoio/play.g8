@@ -1,0 +1,13 @@
+.cache
+.cache-main
+.classpath
+.project
+.settings/
+target/
+logs/
+native/
+/bin/
+.idea/
+.idea_modules/
+.ensime*
+*~
