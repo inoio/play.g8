@@ -1,6 +1,8 @@
 // by default, do not publish artifacts
 // uncomment line below if you have set up
 // a release repository
+// uncomment the line below and setup a
+// publishTo setting
 
 import ReleaseTransformations._
 
