@@ -67,9 +67,9 @@ docker_grafana_1   /usr/bin/supervisord             Up      0.0.0.0:32775->80/tc
 ~/Documents/inoio/tmp/banking/docker$
 ```
 
-The application is now running on port *32779* and grafana on port *32775*. Passing aspectjweaver to your app has been taken care of.
+The application is now running on port *32779* and grafana on port *32775*. Passing aspectjweaver to your app has been taken care of. Kamon is configured to use the play, systems metrics and statsd modules.
 
-Relevant sections for configuration are in `docker.sbt` and `application.conf` in the Kamon section. Before publishin docker containers to public repositories, please adjust the maintainer entry in `docker.sbt`
+Relevant sections for configuration are in `docker.sbt` and `application.conf` in the Kamon section. Before publishing docker containers to public repositories, please adjust the maintainer entry in `docker.sbt`
 
 ### Making releases
 
@@ -77,7 +77,7 @@ Release your project to git with
 ```
 sbt Release
 ```
-For details see https://github.com/sbt/sbt-release
+For details see [sbt-release](https://github.com/sbt/sbt-release).
 The release pipeline is configured in `release.sbt`
 
 ### Customization
