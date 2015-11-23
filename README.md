@@ -6,12 +6,12 @@ An all in one  [giter8](https://github.com/n8han/giter8) template for [Play](htt
 
 ### Features
 
- * supports Play 2.4
- * uses Scaldi for dependency injection
- * provides built-in Kamon support
- * provides built-in Docker support
- * integrated sbt-release plugin (without maven publishing)
- * integrated sbt-builtinfo plugin
+ * supports Play 2.4 (via [play](http://www.playframework.com))
+ * uses Scaldi for dependency injection (via [scaldi](http://scaldi.org))
+ * provides built-in Kamon support (via [kamon](http://www.kamon.io))
+ * provides built-in Docker support (via [sbt native packager](http://www.scala-sbt.org/sbt-native-packager/index.html))
+ * integrated sbt-release plugin (without maven publishing via [sbt-release](https://github.com/sbt/sbt-release))
+ * integrated sbt-buildinfo plugin (via [sbt-buildinfo](https://github.com/sbt/sbt-buildinfo))
  * .gitignore file
 
 
